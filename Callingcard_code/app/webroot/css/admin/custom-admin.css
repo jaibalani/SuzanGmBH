@@ -1,0 +1,41 @@
+ .cancel{   
+ background-color: #E0E0E0 !important; 
+ color: #000 !important; 
+ border-color: #E0E0E0 !important; 
+ margin-top: 20px !important; 
+ } 
+
+.gird_button{ border-bottom: 1px solid #D6D6D6; }
+
+.btn-primary{ background-color: #418BCA !important; border-color:#418BCA !important; margin-top: 20px; }
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
+background-color: #E0E0E0;
+color: #000;
+border-color: #E0E0E0;
+}
+
+.form-control{ border-radius:0px; /* color: #C2C8BC; */ color: #333333}
+/*
+
+.grid_table_box .row .col-md-3{ padding-left: 40px; }
+
+.grid_table_box .row .col-md-6{ margin-left: -50px; }
+
+*/
+
+.sb_left_pad{ padding-left: 40px; }
+
+.sb_left_mar{ margin-left: -50px; }
+
+.sb_checkbox{ margin-left: -50px; }
+
+.sb-select-margin{ margin-right:-14px; }
+
+.sb-excel-margin{ margin-left: 15px; }
+
+.cke_toolbar {
+    height: 24px !important;
+    margin: 1px 0 !important;
+}
+.ui-datepicker{ background-color: #fff; }

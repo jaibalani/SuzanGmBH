@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+#flashMessage.error, .notice, .success, .message {
+	border: 2px solid #DDDDDD;
+	margin-bottom: 1em;
+	padding: 0.8em;
+}
+#flashMessage.error {
+	/*clear: both;
+	color: #fff;
+	background: #c43c35;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -ms-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee5f5b), to(#c43c35));
+	background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -o-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: linear-gradient(top, #ee5f5b, #c43c35);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);*/
+	border: 1px solid #E18B7C;
+	cursor:pointer;
+	color:#571212;
+	background:-moz-linear-gradient(center top, #FFE3DE 1%, #FCCAC1 72%) repeat scroll 0 0 transparent;
+	background-image: -moz-linear-gradient(top, #FFE3DE, #FCCAC1);
+	background-image: -ms-linear-gradient(top, #FFE3DE, #FCCAC1);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFE3DE), to(#FCCAC1));
+	background-image: -webkit-linear-gradient(top, #FFE3DE, #FCCAC1);
+	background-image: -o-linear-gradient(top, #FFE3DE, #FCCAC1);
+	background-image: linear-gradient(top, #FFE3DE, #FCCAC1);
+	box-shadow:0 0 0 1px #FFFFFF inset;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-khtml-border-radius: 6px;
+	line-height:10px;
+	font-size:14px;
+	margin-top: 10px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE3DE', endColorstr='#FCCAC1');
+}
+.notice, .message {
+	/*background: none repeat scroll 0 0 #FFF6BF;
+    border-color: #FFD324;
+    color: #817134;*/
+	
+	clear: both;
+	color: #571212;
+	border-color: #e18b7c;
+	background: rgb(255, 227, 222);
+	background: -moz-linear-gradient(top, rgba(255, 227, 222, 1) 1%, rgba(252, 202, 193, 1) 72%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgba(255, 227, 222, 1)), color-stop(72%, rgba(252, 202, 193, 1)));
+	background: -webkit-linear-gradient(top, rgba(255, 227, 222, 1) 1%, rgba(252, 202, 193, 1) 72%);
+	background: -o-linear-gradient(top, rgba(255, 227, 222, 1) 1%, rgba(252, 202, 193, 1) 72%);
+	background: -ms-linear-gradient(top, rgba(255, 227, 222, 1) 1%, rgba(252, 202, 193, 1) 72%);
+	background: linear-gradient(top, rgba(255, 227, 222, 1) 1%, rgba(252, 202, 193, 1) 72%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe3de', endColorstr='#fccac1', GradientType=0 );
+}
+.success {
+	/*clear: both;
+	color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background: #3B8230;
+	background-repeat: repeat-x;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#76BF6B), to(#3B8230));
+	background-image: -webkit-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: -moz-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: -ms-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: -o-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: linear-gradient(top, #76BF6B, #3B8230);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);*/
+	clear: both;
+	color: #617718;
+	/*border: 1px solid rgba(0, 0, 0, 0.5);*/
+	/*border-color:#B2C866;*/
+	
+	border: 1px solid #B2C866;
+	cursor:pointer;
+	background:-moz-linear-gradient(center top, #F0FACC 0%, #DFF299 71%) repeat scroll 0 0 transparent;
+	background-image: -moz-linear-gradient(top, #F0FACC, #DFF299);
+	background-image: -ms-linear-gradient(top, #F0FACC, #DFF299);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F0FACC), to(#DFF299));
+	background-image: -webkit-linear-gradient(top, #F0FACC, #DFF299);
+	background-image: -o-linear-gradient(top, #F0FACC, #DFF299);
+	background-image: linear-gradient(top, #F0FACC, #DFF299);
+	box-shadow:0 0 0 1px #FFFFFF inset;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-khtml-border-radius: 6px;
+	line-height:10px;
+	font-size:14px;
+	/*background: #DFF299;*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0FACC', endColorstr='#DFF299');
+}
+#flashMessage.error a {
+	color: #D12F19;
+}

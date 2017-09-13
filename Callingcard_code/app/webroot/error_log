@@ -1,0 +1,365 @@
+[10-Nov-2014 04:14:50] PHP Notice:  Undefined variable: login_user in /home/dynamic/public_html/callingcards/app/View/Elements/header.ctp on line 24
+[10-Nov-2014 04:14:50] PHP Fatal error:  [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/dynamic/public_html/callingcards/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/dynamic/public_html/callingcards/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/dynamic/public_html/callingcards/lib/Cake/Model/Model.php(3554): ConnectionManager::getDataSource('default')
+#3 /home/dynamic/public_html/callingcards/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#4 /home/dynamic/public_html/callingcards/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#5 /home/dynamic/public_html/callingcards/app/Controller/AppController.php(218): Model->find('all', Array)
+#6 /home/dynamic/public_html/callingcards/app/Controller/AppController.php(145): AppController->SiteSettings()
+#7 /home/dynamic/public_html/callingcards/app/Lib/Error/AppExceptionRenderer.php(39): AppController->beforeFilter()
+#8 /home/dynamic/public_html/callingcards/app/Lib/ in /home/dynamic/public_html/callingcards/lib/Cake/Error/ErrorHandler.php on line 128
+[10-Nov-2014 04:15:14] PHP Notice:  Undefined variable: login_user in /home/dynamic/public_html/callingcards/app/View/Elements/header.ctp on line 24
+[10-Nov-2014 04:15:14] PHP Fatal error:  [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/dynamic/public_html/callingcards/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/dynamic/public_html/callingcards/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/dynamic/public_html/callingcards/lib/Cake/Model/Model.php(3554): ConnectionManager::getDataSource('default')
+#3 /home/dynamic/public_html/callingcards/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#4 /home/dynamic/public_html/callingcards/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#5 /home/dynamic/public_html/callingcards/app/Controller/AppController.php(218): Model->find('all', Array)
+#6 /home/dynamic/public_html/callingcards/app/Controller/AppController.php(145): AppController->SiteSettings()
+#7 /home/dynamic/public_html/callingcards/app/Lib/Error/AppExceptionRenderer.php(39): AppController->beforeFilter()
+#8 /home/dynamic/public_html/callingcards/app/Lib/ in /home/dynamic/public_html/callingcards/lib/Cake/Error/ErrorHandler.php on line 128
+[10-Nov-2014 04:17:23] PHP Notice:  Undefined variable: login_user in /home/dynamic/public_html/callingcards/app/View/Elements/header.ctp on line 24
+[10-Nov-2014 04:17:23] PHP Fatal error:  [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dynamic_callcard.com_websettings' doesn't exist
+#0 /home/dynamic/public_html/callingcards/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/dynamic/public_html/callingcards/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Websett...', Array)
+#2 /home/dynamic/public_html/callingcards/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Websett...', Array, Array)
+#3 /home/dynamic/public_html/callingcards/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Websett...', false)
+#4 /home/dynamic/public_html/callingcards/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Websetting), Array)
+#5 /home/dynamic/public_html/callingcards/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/dynamic/public_html/callingcards/app/Controller/AppController.php(218): Model->find('all', Array)
+#7 /home/dynamic/public_html/cal in /home/dynamic/public_html/callingcards/lib/Cake/Error/ErrorHandler.php on line 128
+[10-Nov-2014 04:17:28] PHP Notice:  Undefined variable: login_user in /home/dynamic/public_html/callingcards/app/View/Elements/header.ctp on line 24
+[10-Nov-2014 04:17:28] PHP Fatal error:  [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dynamic_callcard.com_websettings' doesn't exist
+#0 /home/dynamic/public_html/callingcards/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/dynamic/public_html/callingcards/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Websett...', Array)
+#2 /home/dynamic/public_html/callingcards/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Websett...', Array, Array)
+#3 /home/dynamic/public_html/callingcards/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Websett...', false)
+#4 /home/dynamic/public_html/callingcards/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Websetting), Array)
+#5 /home/dynamic/public_html/callingcards/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/dynamic/public_html/callingcards/app/Controller/AppController.php(218): Model->find('all', Array)
+#7 /home/dynamic/public_html/cal in /home/dynamic/public_html/callingcards/lib/Cake/Error/ErrorHandler.php on line 128
+[10-Nov-2014 04:50:02] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 543
+[15-Nov-2014 05:57:27] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 05:58:32] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 05:58:45] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 05:58:48] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 05:58:59] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 06:01:02] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 06:01:07] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 06:01:48] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 06:01:54] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 06:01:59] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 06:02:01] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 06:02:56] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 06:04:09] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 06:04:12] PHP Fatal error:  Call to a member function getTrace() on a non-object in /home/dynamic/public_html/callingcards/lib/Cake/View/Elements/exception_stack_trace.ctp on line 24
+[15-Nov-2014 06:08:15] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[15-Nov-2014 06:08:17] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[15-Nov-2014 06:08:21] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[15-Nov-2014 06:08:22] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[23-Nov-2014 23:35:06] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:17:00] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:18:04] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:18:56] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:22:31] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:22:35] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:23:20] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:23:23] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:23:24] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:24:01] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:24:04] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:24:06] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:24:28] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:24:32] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:24:34] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:24:37] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:24:38] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:24:40] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:24:41] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:24:44] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:24:46] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:27:34] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:27:55] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:27:58] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:28:00] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:28:03] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:28:05] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:28:07] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:28:09] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:28:11] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 07:30:11] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:00:53] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:00:59] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:01:20] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:01:35] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:01:39] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:04:08] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:05:32] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:07:31] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:08:44] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:08:48] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:08:49] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:09:17] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:09:44] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:09:52] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:10:13] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[25-Nov-2014 23:15:50] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[26-Nov-2014 01:19:17] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[26-Nov-2014 01:19:21] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[26-Nov-2014 06:42:26] PHP Fatal error:  Class 'Helper' not found in /home/dynamic/public_html/callingcards/app/View/Helper/ImageHelper.php on line 5
+[15-Dec-2014 06:34:04] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ')' in /home/dynamic/public_html/callingcards/app/Controller/CardsController.php on line 823
+[19-Dec-2014 05:12:34] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/callingcards/app/Controller/ReportsController.php on line 1737
+[19-Dec-2014 05:12:38] PHP Fatal error:  Call to a member function find() on a non-object in /home/dynamic/public_html/callingcards/app/Controller/ReportsController.php on line 315
+[19-Dec-2014 05:13:37] PHP Fatal error:  Call to a member function find() on a non-object in /home/dynamic/public_html/callingcards/app/Controller/ReportsController.php on line 316
+[26-Dec-2014 07:45:56] PHP Parse error:  syntax error, unexpected $end, expecting '(' in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 313
+[27-Dec-2014 07:49:27] PHP Fatal error:  Class 'UploadHandler' not found in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 31
+[28-Dec-2014 23:56:45] PHP Fatal error:  Class 'UploadHandler' not found in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 31
+[28-Dec-2014 23:57:10] PHP Fatal error:  Class 'UploadHandler' not found in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 31
+[28-Dec-2014 23:59:45] PHP Fatal error:  Class 'UploadHandler' not found in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 31
+[29-Dec-2014 00:00:27] PHP Fatal error:  Class 'UploadHandler' not found in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 31
+[29-Dec-2014 00:06:29] PHP Fatal error:  Class 'UploadHandler' not found in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 31
+[29-Dec-2014 00:08:32] PHP Fatal error:  Class 'UploadHandler' not found in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 31
+[29-Dec-2014 00:14:22] PHP Fatal error:  Class 'UploadHandler' not found in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 31
+[29-Dec-2014 00:14:55] PHP Fatal error:  Class 'UploadHandler' not found in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 31
+[29-Dec-2014 00:16:17] PHP Fatal error:  Class 'UploadHandler' not found in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 31
+[03-Jan-2015 04:02:29] PHP Fatal error:  Class 'TCPDF' not found in /home/dynamic/public_html/callingcards/app/Controller/InvoicesController.php on line 91
+[07-Jan-2015 04:22:51] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/callingcards/app/Controller/ReportsController.php on line 2826
+[15-Jan-2015 05:17:13] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/callingcards/app/Controller/ReportsController.php on line 2827
+[15-Jan-2015 05:17:15] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/dynamic/public_html/callingcards/app/Controller/ReportsController.php on line 4006
+[28-Jan-2015 00:15:02] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/callingcards/app/Controller/ReportsController.php on line 2421
+[28-Jan-2015 00:15:22] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/callingcards/app/Controller/ReportsController.php on line 1473
+[28-Jan-2015 00:15:25] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/dynamic/public_html/callingcards/app/Controller/ReportsController.php on line 3733
+[28-Jan-2015 00:15:25] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/dynamic/public_html/callingcards/app/Controller/ReportsController.php on line 3733
+[28-Jan-2015 00:15:27] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/dynamic/public_html/callingcards/app/Controller/ReportsController.php on line 5432
+[28-Jan-2015 00:15:27] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/callingcards/app/Controller/ReportsController.php on line 5432
+[28-Jan-2015 00:59:37] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/dynamic/public_html/callingcards/app/Controller/ReportsController.php on line 3813
+[28-Jan-2015 04:44:51] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 2276
+[28-Jan-2015 23:50:16] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/dynamic/public_html/callingcards/app/Controller/CardsController.php on line 308
+[28-Jan-2015 23:50:16] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/callingcards/app/Controller/CardsController.php on line 308
+[28-Jan-2015 23:50:18] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home/dynamic/public_html/callingcards/app/Controller/CardsController.php on line 1273
+[31-Jan-2015 03:36:26] PHP Fatal error:  Cannot redeclare class PHPExcel in /home/dynamic/public_html/callingcards/app/Vendor/PHPExcel/Classes/PHPExcel.php on line 44
+[31-Jan-2015 05:04:24] PHP Parse error:  syntax error, unexpected '<' in /home/dynamic/public_html/callingcards/app/View/Carts/printcard.ctp on line 90
+[31-Jan-2015 07:24:28] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72 bytes) in /home/dynamic/public_html/callingcards/app/Vendor/PHPExcel/Classes/PHPExcel/Style/Supervisor.php on line 126
+[31-Jan-2015 07:29:04] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72 bytes) in /home/dynamic/public_html/callingcards/app/Vendor/PHPExcel/Classes/PHPExcel/Style/Supervisor.php on line 126
+[31-Jan-2015 07:29:54] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72 bytes) in /home/dynamic/public_html/callingcards/app/Vendor/PHPExcel/Classes/PHPExcel/Style/Supervisor.php on line 126
+[31-Jan-2015 07:30:06] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 82 bytes) in /home/dynamic/public_html/callingcards/app/Vendor/PHPExcel/Classes/PHPExcel/Style/Supervisor.php on line 126
+[02-Feb-2015 03:45:51] PHP Warning:  getimagesize(img/card_icons/http://dynamicwebsite.co.in/callingcards/app/webroot//img/card_icons/312868997confirmation_doc.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 25
+[02-Feb-2015 03:45:51] PHP Warning:  Division by zero in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 30
+[02-Feb-2015 03:45:51] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 46
+[02-Feb-2015 03:45:51] PHP Warning:  imagecreatefromjpeg(img/card_icons/http://dynamicwebsite.co.in/callingcards/app/webroot//img/card_icons/312868997confirmation_doc.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 48
+[02-Feb-2015 03:45:51] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 50
+[02-Feb-2015 03:45:51] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 52
+[02-Feb-2015 03:45:51] PHP Warning:  imagedestroy(): supplied argument is not a valid Image resource in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 54
+[02-Feb-2015 03:45:56] PHP Warning:  getimagesize(img/card_icons/http://dynamicwebsite.co.in/callingcards/app/webroot//img/card_icons/312868997confirmation_doc.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 25
+[02-Feb-2015 03:45:56] PHP Warning:  Division by zero in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 30
+[02-Feb-2015 03:45:56] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 46
+[02-Feb-2015 03:45:56] PHP Warning:  imagecreatefromjpeg(img/card_icons/http://dynamicwebsite.co.in/callingcards/app/webroot//img/card_icons/312868997confirmation_doc.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 48
+[02-Feb-2015 03:45:56] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 50
+[02-Feb-2015 03:45:56] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 52
+[02-Feb-2015 03:45:56] PHP Warning:  imagedestroy(): supplied argument is not a valid Image resource in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 54
+[02-Feb-2015 03:46:17] PHP Warning:  getimagesize(img/card_icons/http://dynamicwebsite.co.in/callingcards/app/webroot//img/card_icons/312868997confirmation_doc.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 25
+[02-Feb-2015 03:46:17] PHP Warning:  Division by zero in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 30
+[02-Feb-2015 03:46:17] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 46
+[02-Feb-2015 03:46:17] PHP Warning:  imagecreatefromjpeg(img/card_icons/http://dynamicwebsite.co.in/callingcards/app/webroot//img/card_icons/312868997confirmation_doc.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 48
+[02-Feb-2015 03:46:17] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 50
+[02-Feb-2015 03:46:17] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 52
+[02-Feb-2015 03:46:17] PHP Warning:  imagedestroy(): supplied argument is not a valid Image resource in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 54
+[02-Feb-2015 03:47:44] PHP Warning:  getimagesize(img/card_icons/http://dynamicwebsite.co.in/callingcards/app/webroot//img/card_icons/312868997confirmation_doc.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 25
+[02-Feb-2015 03:47:44] PHP Warning:  Division by zero in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 30
+[02-Feb-2015 03:47:44] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 46
+[02-Feb-2015 03:47:44] PHP Warning:  imagecreatefromjpeg(img/card_icons/http://dynamicwebsite.co.in/callingcards/app/webroot//img/card_icons/312868997confirmation_doc.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 48
+[02-Feb-2015 03:47:44] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 50
+[02-Feb-2015 03:47:44] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 52
+[02-Feb-2015 03:47:44] PHP Warning:  imagedestroy(): supplied argument is not a valid Image resource in /home/dynamic/public_html/callingcards/app/webroot/image.php on line 54
+[03-Feb-2015 01:44:49] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 64 bytes) in /home/dynamic/public_html/callingcards/app/Vendor/PHPExcel/Classes/PHPExcel/Style/Supervisor.php on line 126
+[06-Feb-2015 00:48:46] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 304
+[06-Feb-2015 00:48:46] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 304
+[06-Feb-2015 01:30:05] PHP Fatal error:  Call to undefined function  router() in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 2353
+[06-Feb-2015 05:06:50] PHP Fatal error:  Can't use function return value in write context in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 2589
+[06-Feb-2015 07:07:54] PHP Parse error:  syntax error, unexpected $end, expecting '(' in /home/dynamic/public_html/callingcards/app/Controller/UsersController.php on line 2247
+[07-Feb-2015 08:02:05] PHP Parse error:  syntax error, unexpected ')' in /home/dynamic/public_html/callingcards/app/View/Cards/admin_add.ctp on line 344
+[18-Feb-2015 22:57:34] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/dynamic/public_html/callingcards/app/Controller/CardsController.php on line 1954
+[18-Feb-2015 22:57:34] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/dynamic/public_html/callingcards/app/Controller/CardsController.php on line 1954
+[23-Feb-2015 06:38:09] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:38:09] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: 'img/users/Sungerbob_12(12).jpg (1).gif' is not a valid JPEG file in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:38:09] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/dynamic/public_html/newcall/app/webroot/image.php on line 50
+[23-Feb-2015 06:38:31] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:38:31] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: 'img/users/Sungerbob_12(12).jpg (1).gif' is not a valid JPEG file in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:38:31] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/dynamic/public_html/newcall/app/webroot/image.php on line 50
+[23-Feb-2015 06:38:45] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:38:45] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: 'img/users/Sungerbob_12(12).jpg (1).gif' is not a valid JPEG file in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:38:45] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/dynamic/public_html/newcall/app/webroot/image.php on line 50
+[23-Feb-2015 06:38:48] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:38:48] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: 'img/users/Sungerbob_12(12).jpg (1).gif' is not a valid JPEG file in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:38:48] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/dynamic/public_html/newcall/app/webroot/image.php on line 50
+[23-Feb-2015 06:39:07] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:39:07] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: 'img/users/Sungerbob_12(12).jpg (1).gif' is not a valid JPEG file in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:39:07] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/dynamic/public_html/newcall/app/webroot/image.php on line 50
+[23-Feb-2015 06:39:14] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:39:14] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: 'img/users/Sungerbob_12(12).jpg (1).gif' is not a valid JPEG file in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:39:14] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/dynamic/public_html/newcall/app/webroot/image.php on line 50
+[23-Feb-2015 06:41:40] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:41:40] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: 'img/users/Sungerbob_12(12).jpg (4).gif' is not a valid JPEG file in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:41:40] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/dynamic/public_html/newcall/app/webroot/image.php on line 50
+[23-Feb-2015 06:42:41] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:42:41] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: 'img/users/Sungerbob_12(12).jpg (4).gif' is not a valid JPEG file in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:42:41] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/dynamic/public_html/newcall/app/webroot/image.php on line 50
+[23-Feb-2015 06:43:19] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:43:19] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: 'img/users/Sungerbob_12(12).jpg (4).gif' is not a valid JPEG file in /home/dynamic/public_html/newcall/app/webroot/image.php on line 48
+[23-Feb-2015 06:43:19] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/dynamic/public_html/newcall/app/webroot/image.php on line 50
+[24-Feb-2015 00:33:50] PHP Parse error:  syntax error, unexpected T_IS_NOT_EQUAL in /home/dynamic/public_html/newcall/app/View/Elements/footer.ctp on line 17
+[24-Feb-2015 00:33:52] PHP Parse error:  syntax error, unexpected T_IS_NOT_EQUAL in /home/dynamic/public_html/newcall/app/View/Elements/footer.ctp on line 17
+[24-Feb-2015 01:02:53] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/newcall/app/Controller/PinsController.php on line 1684
+[24-Feb-2015 01:03:03] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/newcall/app/Controller/PinsController.php on line 1684
+[24-Feb-2015 01:03:05] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/newcall/app/Controller/PinsController.php on line 1684
+[24-Feb-2015 01:03:11] PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 4085 of 4085 bytes in /home/dynamic/public_html/newcall/lib/Cake/Cache/Engine/FileEngine.php on line 194
+[24-Feb-2015 01:03:48] PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 4085 of 4085 bytes in /home/dynamic/public_html/newcall/lib/Cake/Cache/Engine/FileEngine.php on line 194
+[24-Feb-2015 01:04:30] PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 4059 of 4085 bytes in /home/dynamic/public_html/newcall/lib/Cake/Cache/Engine/FileEngine.php on line 194
+[24-Feb-2015 01:06:07] PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 4059 of 4085 bytes in /home/dynamic/public_html/newcall/lib/Cake/Cache/Engine/FileEngine.php on line 194
+[24-Feb-2015 01:08:20] PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 4059 of 4085 bytes in /home/dynamic/public_html/newcall/lib/Cake/Cache/Engine/FileEngine.php on line 194
+[24-Feb-2015 01:48:31] PHP Parse error:  syntax error, unexpected ';' in /home/dynamic/public_html/newcall/app/View/Pins/admin_edit.ctp on line 71
+[24-Feb-2015 01:49:34] PHP Parse error:  syntax error, unexpected ';' in /home/dynamic/public_html/newcall/app/View/Pins/admin_edit.ctp on line 72
+[24-Feb-2015 03:36:39] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/newcall/app/Controller/UsersController.php on line 2598
+[24-Feb-2015 04:10:53] PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 8152 of 8181 bytes in /home/dynamic/public_html/newcall/lib/Cake/Cache/Engine/FileEngine.php on line 194
+[24-Feb-2015 05:10:23] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/newcall/app/Controller/UsersController.php on line 1133
+[24-Feb-2015 06:22:49] PHP Parse error:  syntax error, unexpected T_STRING in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 415
+[24-Feb-2015 06:23:12] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 415
+[24-Feb-2015 06:23:33] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 415
+[24-Feb-2015 07:43:36] PHP Parse error:  syntax error, unexpected ';' in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 2189
+[24-Feb-2015 23:47:59] PHP Parse error:  syntax error, unexpected '}' in /home/dynamic/public_html/newcall/app/View/Users/admin_edit.ctp on line 525
+[25-Feb-2015 01:42:58] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/newcall/app/Controller/ReportsController.php on line 2857
+[28-Feb-2015 02:52:14] PHP Parse error:  syntax error, unexpected T_ECHO in /home/dynamic/public_html/newcall/app/View/Pages/contactus.ctp on line 56
+[03-Mar-2015 06:41:30] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 95 bytes) in /home/dynamic/public_html/newcall/app/Vendor/PHPExcel/Classes/PHPExcel/Worksheet.php on line 1176
+[03-Mar-2015 06:42:37] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 103 bytes) in /home/dynamic/public_html/newcall/app/Vendor/PHPExcel/Classes/PHPExcel/Worksheet.php on line 1176
+[03-Mar-2015 07:53:27] PHP Parse error:  syntax error, unexpected $end, expecting T_VARIABLE or '$' in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 1629
+[04-Mar-2015 00:12:33] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dynamic/public_html/newcall/app/Controller/CartsController.php on line 351
+[04-Mar-2015 01:04:25] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/dynamic/public_html/newcall/app/Controller/PinsController.php on line 226
+[04-Mar-2015 01:04:25] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home/dynamic/public_html/newcall/app/Controller/PinsController.php on line 226
+[05-Mar-2015 00:50:17] PHP Fatal error:  Call to undefined function  lower() in /home/dynamic/public_html/newcall/app/Controller/CategoriesController.php on line 224
+[05-Mar-2015 03:28:05] PHP Parse error:  syntax error, unexpected '}' in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 458
+[07-Mar-2015 00:37:06] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 119
+[07-Mar-2015 00:37:06] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 119
+[07-Mar-2015 01:42:51] PHP Parse error:  syntax error, unexpected '"' in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 1682
+[07-Mar-2015 01:42:55] PHP Parse error:  syntax error, unexpected '"' in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 1682
+[07-Mar-2015 03:17:07] PHP Parse error:  syntax error, unexpected ';' in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 1712
+[07-Mar-2015 03:17:19] PHP Parse error:  syntax error, unexpected ';' in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 1712
+[07-Mar-2015 04:33:04] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 1731
+[07-Mar-2015 05:05:33] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 283
+[13-Mar-2015 00:25:03] PHP Fatal error:  Call to a member function find() on a non-object in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 82
+[13-Mar-2015 00:25:14] PHP Fatal error:  Call to a member function find() on a non-object in /home/dynamic/public_html/newcall/app/Controller/CardsController.php on line 82
+[20-Mar-2015 07:08:48] PHP Warning:  _cake_core_ cache was unable to write 'file_map' to File cache in /home/dynamic/public_html/newcall/lib/Cake/Cache/Cache.php on line 323
+[20-Mar-2015 07:08:48] PHP Warning:  _cake_core_ cache was unable to write 'method_cache' to File cache in /home/dynamic/public_html/newcall/lib/Cake/Cache/Cache.php on line 323
+[25-Mar-2015 04:50:18] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/newcall/app/Controller/SearchesController.php on line 182
+[25-Mar-2015 06:54:52] PHP Parse error:  syntax error, unexpected $end in /home/dynamic/public_html/newcall/app/Controller/CartsController.php on line 174
+[25-Mar-2015 06:55:00] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dynamic/public_html/newcall/app/Controller/CartsController.php on line 792
+[25-Mar-2015 06:55:02] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dynamic/public_html/newcall/app/Controller/CartsController.php on line 792
+[25-Mar-2015 06:55:04] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dynamic/public_html/newcall/app/Controller/CartsController.php on line 792
+[27-Mar-2015 04:35:39] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 208175 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Utility/Debugger.php on line 562
+[27-Mar-2015 04:35:46] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 208175 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Utility/Debugger.php on line 562
+[27-Mar-2015 04:35:57] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 208175 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Utility/Debugger.php on line 562
+[27-Mar-2015 05:00:00] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 208175 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Utility/Debugger.php on line 562
+[27-Mar-2015 05:07:41] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 208175 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Utility/Debugger.php on line 562
+[27-Mar-2015 05:07:48] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 208175 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Utility/Debugger.php on line 562
+[27-Mar-2015 05:07:57] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 208175 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Utility/Debugger.php on line 562
+[27-Mar-2015 05:08:15] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 208175 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Utility/Debugger.php on line 562
+[27-Mar-2015 05:08:45] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 208175 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Utility/Debugger.php on line 562
+[27-Mar-2015 05:09:05] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 208175 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Utility/Debugger.php on line 562
+[27-Mar-2015 05:10:45] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 208175 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Utility/Debugger.php on line 562
+[27-Mar-2015 05:13:03] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 208175 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Utility/Debugger.php on line 562
+[30-Mar-2015 08:21:45] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/dynamic/public_html/newcall/app/View/Searches/online_card.ctp on line 522
+[30-Mar-2015 08:21:48] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/dynamic/public_html/newcall/app/View/Searches/online_card.ctp on line 522
+[30-Mar-2015 09:07:35] PHP Parse error:  syntax error, unexpected ')' in /home/dynamic/public_html/newcall/app/Controller/CronsController.php on line 262
+[30-Mar-2015 09:07:43] PHP Parse error:  syntax error, unexpected ')' in /home/dynamic/public_html/newcall/app/Controller/CronsController.php on line 262
+[02-Apr-2015 00:31:17] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 100663296 bytes) in /home/dynamic/public_html/newcall/app/Vendor/PHPExcel/Classes/PHPExcel/Style/Supervisor.php on line 126
+[02-Apr-2015 01:39:42] PHP Parse error:  syntax error, unexpected '}' in /home/dynamic/public_html/newcall/app/Controller/SearchesController.php on line 920
+[02-Apr-2015 01:39:44] PHP Parse error:  syntax error, unexpected '}' in /home/dynamic/public_html/newcall/app/Controller/SearchesController.php on line 920
+[02-Apr-2015 01:39:46] PHP Parse error:  syntax error, unexpected '}' in /home/dynamic/public_html/newcall/app/Controller/SearchesController.php on line 920
+[02-Apr-2015 07:55:32] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1484
+[02-Apr-2015 08:04:32] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1484
+[02-Apr-2015 08:04:54] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1484
+[02-Apr-2015 08:05:27] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32768 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1484
+[02-Apr-2015 08:07:57] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[02-Apr-2015 08:08:51] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[02-Apr-2015 08:09:30] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[02-Apr-2015 08:23:59] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[02-Apr-2015 11:10:15] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 00:38:17] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 00:38:29] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 00:38:37] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 00:38:48] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 00:40:20] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 00:44:06] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 00:46:51] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 00:53:13] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 100663296 bytes) in /home/dynamic/public_html/newcall/app/Vendor/PHPExcel/Classes/PHPExcel/Style/Supervisor.php on line 126
+[03-Apr-2015 01:05:31] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 01:06:22] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 01:12:38] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 01:12:54] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 01:13:13] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 01:25:20] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 79 bytes) in /home/dynamic/public_html/newcall/app/Vendor/PHPExcel/Classes/PHPExcel/Style/Supervisor.php on line 123
+[03-Apr-2015 01:36:41] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 100663296 bytes) in /home/dynamic/public_html/newcall/app/Vendor/PHPExcel/Classes/PHPExcel/Worksheet.php on line 1136
+[03-Apr-2015 05:30:58] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:30:58] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 80 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:31:02] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 80 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:31:02] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:31:13] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:31:14] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:31:25] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 79 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:32:24] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:32:32] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 79 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:39:47] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 79 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:39:52] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 79 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:40:38] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:40:48] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:40:55] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:41:00] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 79 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:41:29] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 79 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:44:38] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 6 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:44:38] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 91 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:44:39] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 39 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:44:40] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 39 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:44:40] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 80 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:44:42] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 39 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:44:42] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 80 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:44:49] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 81 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:45:39] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:51:43] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:56:08] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 79 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 05:57:17] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 39 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:02:21] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 24 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:02:30] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 79 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:02:37] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 24 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:07:12] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/DboSource.php on line 1170
+[03-Apr-2015 06:10:22] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8208 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:12:43] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8208 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:12:45] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8208 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:12:51] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8208 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:12:55] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8208 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:14:38] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8208 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:14:42] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8208 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:14:43] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8208 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:15:17] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 79 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:23:15] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 3636186 bytes) in Unknown on line 0
+[03-Apr-2015 06:37:25] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 79 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:37:29] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:37:34] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:37:54] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 81 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:37:58] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 80 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:38:02] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 84 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:39:01] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 84 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:39:09] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 83 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:39:14] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 39 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:39:16] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 83 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:39:20] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 24 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:40:00] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 83 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:40:06] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 39 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:40:10] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 39 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:43:15] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 39 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:58:18] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8208 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:58:50] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 39 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 06:58:53] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 24 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 07:00:57] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8208 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 07:01:00] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8208 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661
+[03-Apr-2015 07:01:01] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8208 bytes) in /home/dynamic/public_html/newcall/lib/Cake/Model/Datasource/CakeSession.php on line 661

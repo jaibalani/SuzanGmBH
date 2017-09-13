@@ -1,0 +1,189 @@
+html {
+	overflow-y: auto;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header_outer{
+width:100%;
+float:left; 
+background:#000;
+height:170px;
+color:#FFF;
+}
+
+.header_inner{
+width:1000px !important;
+margin:0 auto !important;
+padding:5px;
+}
+
+.footer_outer{
+width:100%;
+float:left; 
+background:#000;
+height:170px;
+color:#FFF;
+}
+
+.footer_inner{
+width:1000px !important;
+margin:0 auto !important;
+padding:5px;
+}
+
+#content
+{
+	width:1000px !important;
+	margin:0 auto !important;
+	padding:0px;
+  min-height:500px;
+}
+.login_form_admin_outer{
+width:100%;
+float:left;
+padding-top:20px;
+height:430px;
+}
+
+.login_form_admin{
+width:300px;
+height:auto;
+margin: 0 auto;
+padding:10px;
+}
+.login_username_textbox_admin
+{
+	width:95%;
+	text-align:left;
+	height:70px;
+	float:left;
+}
+.login_textbox_admin{
+margin-top:10px;
+float:left;
+padding:5px;
+border-radius: 5px;
+border:1px solid #CCC;
+width:100%;
+}
+.space{
+width:100;
+clear:both;
+height:10px;
+}
+.login_button_admin
+{
+	padding:5px 15px;
+	width:auto;
+	font-size:14px;
+	background:#333;
+	color:#CCC;
+	float:left;
+	margin:20px 20px 20px 0px;
+	border:1px solid #999;
+	border-radius: 5px;
+}
+.main_admin_dashboard{
+width:78%;
+float:right;
+padding-top:20px;
+}
+.admin_logout_theme{
+padding-top:10px;
+cursor:pointer;
+float:left;
+}
+.left_menu_outer{
+width:20%;
+background:#630;
+color:#FFF;
+border:1px solid #666;
+border-radius: 5px;
+min-height:432px;
+float:left;
+}
+
+.left_menu_inner{
+width:95%;
+background:#630;
+color:#FFF;
+border-bottom:1px solid #CCC;
+border-radius: 5px;
+height:30px;
+float:left;
+padding:5px 0px 0px 5px;
+cursor:pointer;
+}
+
+.change_password_admin{
+width:100%;
+float:left;
+}
+.change_password_admin_inner{
+float:left;
+}
+.grid_main_div{
+width:800px;
+overflow:hidden;
+}
+
+.login_form_admin_add{
+width:100%;
+height:auto;
+margin: 0 auto;
+padding:10px;
+}
+.add_user{
+width:250px;
+float:left;
+}
+.left_admin_text{
+width:200px;
+float:left;
+}
+.add_label{
+border:none;
+width:250px;
+float:left;
+color:#999;
+}
+.text_area{
+height:28px;
+}
+.supported_file{
+width:auto;
+float:none;
+font-size:14px;
+color:#999;
+margin-left:10px;
+float:left;
+}
+.progress
+{
+	width:70%;
+  margin-top:0px !important;
+  clear:both;
+}
+.image_display{
+float:left;
+height:auto;
+}
+.header_menu{
+width:150px;
+color:#F00;
+float:left;
+cursor:pointer;
+padding:5px 10px;
+}
+.main_outer_div{
+width:100%;
+float:left;
+}
+
+.main_inner_div{
+width:1000px;
+margin:0 auto;
+}
